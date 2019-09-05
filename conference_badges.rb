@@ -25,5 +25,8 @@ def printer(array)
     batch.each do |item|
       puts item
     end
-    assign_rooms(array)
+    rooms = assign_rooms(array)
+    rooms.each do |item|
+      puts item
+    end
 end
