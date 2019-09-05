@@ -12,8 +12,10 @@ end
 
 def assign_rooms(name)
   counter = 1
+  room_array = []
   array.each do |name|
-    print "Hello, #{name}! You'll be assigned to room #{counter}!"
+    room_array << "Hello, #{name}! You'll be assigned to room #{counter}!"
     counter += 1
   end
+  return room_array
 end
