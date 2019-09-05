@@ -5,15 +5,15 @@ end
 def batch_badge_creator(array)
   badge_array = []
   array.each do |name|
-     badge_array << "Hello, my name is #{name}."
+     badge_array << badge_maker(name)
   end
   return badge_array
 end
 
-def assign_rooms(name, index)
+def assign_rooms(name)
   counter = 1
   array.each do |name|
-    print "Hello, #{name}! You'll be assigned to room #{index}!"
+    print "Hello, #{name}! You'll be assigned to room #{counter}!"
     counter += 1
   end
 end
