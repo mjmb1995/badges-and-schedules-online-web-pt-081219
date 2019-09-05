@@ -6,8 +6,6 @@ def batch_badge_creator(array)
   counter = 1
   array.each do |name|
     badge_maker(name)
-    assign_rooms(name, counter)
-    counter += 1
   end
 end
 
